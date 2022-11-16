@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import HRAlogo from './assets/hra logo.webp'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="m-0">
+     <div className='flex justify-center  bg-neutral-200 w-full h-fit p-3 '>
+      <img className='w-40 ' src={HRAlogo}></img>
+    
+      </div>
+     <Nav/>
+     <Hero/>
     </div>
   );
 }
