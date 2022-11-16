@@ -16,7 +16,7 @@ function Hero() {
             <div className='w-[80%]'>
                 <img className='w-full ml-10 z-1 ' src ={heroImg}></img>
             </div>
-        <div className=' absolute md:bottom-[-5%] bottom-[-5%]  flex-col py-4 md:flex md:min-w-[760px]  mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl '>
+        <div className=' absolute md:bottom-[10%] bottom-[-5%]  flex-col py-4 md:flex md:min-w-[760px]  mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl '>
             <p className='font-semibold text-3xl'>Solutions</p>
             <div className='flex justify-center flex-wrap '>
                 <p className = 'flex px-4 items-center py-2 text-slate-800 ' > <HiOutlineTrendingUp  className='w-4 text-red-600 mr-2'/>Data Analytics</p>
