@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className='w-screen h-[80px] z-10 sticky top-0 drop-shadow-lg border-t-[2px] border-red-300  bg-neutral-300 '>
+    <div className='w-screen h-[80px] z-10 sticky top-0 drop-shadow-lg border-t-[2px] border-red-300 bg-zinc-200 '>
      
       <div className="w-full h-full px-2 flex justify-between items-center">
         <div className='flex items-center'>

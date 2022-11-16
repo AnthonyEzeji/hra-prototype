@@ -6,7 +6,7 @@ import {BiStreetView} from 'react-icons/bi'
 import { TbSchool } from "react-icons/tb"
 function Hero() {
   return (
-    <div className='w-full h-screen bg-neutral -300 flex flex-col justify-start '>
+    <div className='w-full h-screen bg-neutral-300 flex flex-col justify-start '>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-10 '>
             <div className='flex flex-col justify-center md:items-start w-full h-full'>
                 <p className='text-2xl'>Creating Partnerships to Advance, Protect, and Reward Superior Healthcare</p>
@@ -14,7 +14,7 @@ function Hero() {
                 <button className = ' font-semibold py-3 px-6 sm:w-[60%] mt-2'>Get Started</button>
             </div>
             <div className='w-[80%]'>
-                <img className='w-full ml-10  ' src ={heroImg}></img>
+                <img className='w-full ml-10 z-1 ' src ={heroImg}></img>
             </div>
         <div className=' absolute md:top-[630px] top-[650px]  flex-col py-4 md:flex md:min-w-[760px]  mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl '>
             <p className='font-semibold text-3xl'>Solutions</p>
