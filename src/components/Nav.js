@@ -1,22 +1,22 @@
 import React from 'react'
-
+import HRALogo from '../assets/hra logo.webp'
 function Nav() {
   return (
-    <div className='w-screen h-[80px] z-10 sticky top-0 drop-shadow-lg border-t-[2px] border-red-300 bg-zinc-200 '>
+    <div className='w-[100%] h-[80px] z-10 sticky top-0 drop-shadow-lg  bg-red-400 text-white '>
      
       <div className="w-full h-full px-2 flex justify-between items-center">
         <div className='flex items-center'>
-          <h1 className="text-3xl font-bold mr-4 sm:text-4xl"></h1>
-          <ul className="hidden md:flex">
-            <li>Solutions</li>
-            <li>Who We Serve</li> 
-            <li>About Us</li> 
-            <li>Insights</li>
-            <li>Contact</li>
-          </ul>
+          <h1 className="text-3xl font-bold mr-4 sm:text-4xl"><img className ='max-w-[60%]' src={HRALogo} alt="" /></h1>
         </div>
+        <ul className="hidden lg:flex">
+            <li className='md:text-[16px] w-fit font-semibold drop-shadow-lg text-slate-700 '>Solutions</li>
+            <li className='md:text-[16px] w-fit font-semibold drop-shadow-lg text-slate-700 '>Who We Serve</li> 
+            <li className='md:text-[16px] w-fit font-semibold drop-shadow-lg text-slate-700 '>About Us</li> 
+            <li className='md:text-[16px] w-fit font-semibold drop-shadow-lg text-slate-700 '>Insights</li>
+            <li className='md:text-[16px] w-fit font-semibold drop-shadow-lg text-slate-700 '>Contact</li>
+          </ul>
         <div className=" flex ">
-          <button className  = "bg-transparent text-black font-semibold border-none"> Sign In</button>
+          <button className  = "bg-transparent text-white font-semibold border-none"> Sign In</button>
           <button className = ''> Sign Up</button>
 
         </div>
