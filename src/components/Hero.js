@@ -24,10 +24,10 @@ function Hero() {
 
             <div className='flex justify-start  items-center flex-wrap w-full h-fit min-h-[300px] min-w-[320px] shadow-2xl bg-slate-600  border-neutral-400 drop-shadow-md  text-2xl  rounded-3xl'>
                 <p className = 'flex px-4 items-center  lg:py-4 py-1.5 md:text-[20px] lg:text-4xl text-[1.5vw] font-bold  text-medium  text-slate-200      ' > <HiOutlineTrendingUp  className='text-4xl text-red-700 mr-2 drop-shadow-lg '/>Data Analytics</p>
-                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold  text-slate-200    '><ShieldExclamationIcon className='text-red-400 w-10  text-red-700 mr-2 drop-shadow-lg '/> Patient Safety and Risk Managment </p>
-                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200   '><HiOutlineScale className='text-red-400 text-4xl text-red-700 mr-2 drop-shadow-lg '/>Claims and Litigation Services</p>
-                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200  '><BiStreetView className='text-red-400 text-4xl  text-red-700 mr-2 drop-shadow-lg '/>Self-Insured Programs</p>
-                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200   '><TbSchool className='text-red-400 text-4xl  text-red-700 mr-2 drop-shadow-lg '/>Education</p>
+                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold  text-slate-200    '><ShieldExclamationIcon className='text-red-700 w-10  text-red-700 mr-2 drop-shadow-lg '/> Patient Safety and Risk Managment </p>
+                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200   '><HiOutlineScale className='text-red-700 text-4xl text-red-700 mr-2 drop-shadow-lg '/>Claims and Litigation Services</p>
+                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200  '><BiStreetView className='text-red-700 text-4xl  text-red-700 mr-2 drop-shadow-lg '/>Self-Insured Programs</p>
+                <p className = 'flex px-4 items-center lg:py-4 py-1.5 md:text-[20px]  lg:text-4xl text-[1.5vw] sm:text-2xl font-bold text-medium  text-slate-200   '><TbSchool className='text-red-700 text-4xl  text-red-700 mr-2 drop-shadow-lg '/>Education</p>
                 
   </div>
 
