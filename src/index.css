@@ -4,7 +4,7 @@
 
 @layer base{
     li{
-        @apply p-4 font-semibold hover:text-white hover:border-b-[1px] hover:border-slate-200 hover:bg-red-400 rounded-2xl 
+        @apply px-4 font-semibold hover:text-white hover:border-b-[1px] hover:border-slate-200 hover:bg-red-400 rounded-2xl 
     }
     button{
         @apply text-white border bg-red-600 border-red-600 p-2 mx-2

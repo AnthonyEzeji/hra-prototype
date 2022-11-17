@@ -8,16 +8,17 @@ function App() {
 
   return (
     <div className="m-0 bg-white h-screen">
-     {/*<div className='flex justify-center  bg-zinc-200 w-full h-fit p-3 '>
-      <img className='w-40 ' src={HRAlogo}></img>
+     {<div className='flex justify-center  bg-zinc-200 w-full h-fit p-3 '>
+      <img className='w-[200px] h-[40px] ' src={HRAlogo}></img>
     
-  </div>*/}
+  </div>}
       
      <Nav/>
 
      <Hero/>
-  
      <Carousel/>
+  
+   
  
    
      
