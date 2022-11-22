@@ -1,7 +1,8 @@
 #p-tag{
-    
+margin: 1px;
     transition:font-size .1s
 }
 #p-tag:hover{
     font-size:30px
+
 }
