@@ -14,25 +14,41 @@
           
         <ul class="marquee-content">
          
-        <li><img src={BHSLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MFLogo} alt="" /></li>
-        <li><img src={NyackLogo} alt="" /></li>
-        <li><img src={WPLogo} alt="" /></li>
-        <li><img src={BlytheLogo} alt="" /></li>
-        <li><img src={STLukeLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
-        <li><img src={MSHLogo} alt="" /></li>
+        <li  className='px-4 py-0 '><img src={BHSLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MFLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={NyackLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={WPLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={BlytheLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={STLukeLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={STLukeLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={STLukeLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MSHLogo} alt="" /></li>
+        <li className='px-4 py-0 '><img src={MFLogo} alt="" /></li>
 
         
         
         
     
         </ul>
+   
       </div>
       )
     }
