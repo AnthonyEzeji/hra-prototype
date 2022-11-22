@@ -2,9 +2,9 @@ import React from 'react'
 import HRALogo from '../assets/hra logo.webp'
 function Nav() {
   return (
-    <div className='w-[100%] h-fit z-40 sticky top-0 drop-shadow-lg  bg-red-800 text-white '>
+    <div className='w-[100%] h-fit z-40 sticky top-0 drop-shadow-lg  bg-slate-600 text-white p-2  '>
      
-      <div className="w-full h-full px-2 flex justify-between items-center ">
+      <div className="w-full h-full  flex justify-between items-center ">
         <div className='flex items-center p-1 '>
 <img className = 'h-auto w-[200px]   md:flex hidden' src="https://fojp.jiveon.com/resources/images/palette-1068/TDCG_HRA_Logo_Red_White_192x42_f.png" alt="" />
         </div>
