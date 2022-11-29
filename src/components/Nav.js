@@ -2,7 +2,7 @@ import React from 'react'
 import HRALogo from '../assets/hra logo.webp'
 function Nav() {
   return (
-    <div className='w-[100%] h-fit z-40 sticky top-0 drop-shadow-lg  bg-black text-white p-1  '>
+    <div className='w-[100%] h-fit z-40 sticky top-0 drop-shadow-lg  bg-slate-600 text-white p-1  '>
      
       <div className="w-full h-full  flex justify-between items-center ">
         <div className='flex items-center  '>
@@ -17,7 +17,7 @@ function Nav() {
           </ul>
         <div className=" flex ">
           <button className  = "bg-transparent text-white font-semibold border-none"> Sign In</button>
-          <button className = ''> Sign Up</button>
+          <button className = 'bg-red-600'> Sign Up</button>
 
         </div>
       </div>
