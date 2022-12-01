@@ -1,0 +1,12 @@
+.splide{
+    width: 100vw;
+    height: 80vh;
+    padding-top:0; margin-top: 0;
+    
+
+
+}
+.slide1{
+    background-image: url('C:\Users\aezeji\Projects\hra-prototype-2\src\assets\landing image 1.webp');
+    background-repeat:no-repeat ;
+}

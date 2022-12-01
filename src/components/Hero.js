@@ -9,7 +9,7 @@ import '../css/Circle.css'
 import '../css/Hero.css'
 function Hero() {
   return (
-    <div className='w-full h-fit bg-stone-300 flex  justify-start items-center p-10   '>
+    <div className='w-screen h-screen bg-zinc-300 flex  justify-start items-center p-10 overflow-clip   '>
         
         <div className='  grid-cols-1 md:grid-cols-3 max-w-[95%]  m-1 '>
            
@@ -19,7 +19,7 @@ function Hero() {
                 <div className='w-fit min-h-[200px]  flex-col z-30 ' >
                 <p className='md:text-3xl lg:text-4xl w-fit max-w-[400px] text-3xl text-red-600 drop-shadow-sm font-bold'>Creating Partnerships to Advance, Protect, and Reward Superior Healthcare</p>
                 <h1 className='py-3 max-w-[300px] xl:text-10xl lg:text-8xl text-5xl xs:text-5xl text-slate-600  md:text-7xl font-bold drop-shadow-lg'>Risk Management</h1>
-                {<button id='get-started' className = ' font-bold py-4 px-6 md:w-fit mt-2 drop-shadow-lg bg-red-600 border-0'><p>Get Started</p></button>}
+                {<button id='get-started' className = ' text-zinc-300 font-bold py-4 px-6 md:w-fit mt-2 drop-shadow-lg bg-red-600 border-0'><p>Get Started</p></button>}
                 </div>
                
                 {<div  className=' absolute       mx-[120px] md:left-1/2 transform     rounded-xl pr-[px] hidden md:flex z-20   '>
@@ -37,11 +37,14 @@ function Hero() {
             </div>
           
         </div>
+        <div className=' hidden 2xl:flex'>
         <div style={{top:'10%', left:'20%',zIndex:1}} className="circle"></div>
-        <div style={{top:'20%', left:'70%', fontSize:'7rem' ,zIndex:1}} className="circle"></div>
+        <div style={{top:'20%', left:'65%', fontSize:'7rem' ,zIndex:1}} className="circle"></div>
         <div style={{top:'15%', left:'35%', fontSize:'4rem' ,zIndex:1}} className="circle"></div>
         <div style={{top:'0%', left:'60%', fontSize:'2rem',zIndex:1}} className="circle"></div>
         <div style={{top:'40%', left:'15%', fontSize:'3rem',zIndex:1}} className="circle"></div>
+        </div>
+   
 
     </div>
   )

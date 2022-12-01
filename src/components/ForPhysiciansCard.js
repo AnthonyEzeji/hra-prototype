@@ -3,22 +3,23 @@ import {ReactComponent as DoctorIcon} from '../assets/DoctorIcon.svg'
 import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 function ForPhysiciansCard() {
   return (
-    <div className = 'flex justify-center  z-30  md:mb-0 mb-5    rounded-xl w-[50%] m-2'>
-    <div className="bg-stone-300  min-h-[200px]   flex  justify-center items-start drop-shadow-xl shadow-lg rounded-xl md:w-[100%] w-[320px] z-30 ">
+    <div className = 'flex justify-center  z-20   w-[100%]    rounded-xl md:w-[40%] my-2 shadow-md hover:shadow-xl'>
+    <div className="bg-zinc-300  md:min-h-[400px]   flex  justify-center items-start  rounded-xl md:w-[100%] w-[80%] z-30 min-w-[300px] ">
       <div className='w-[75%]  h-full rounded-tl-xl flex flex-col items-center justify-center'>
-      <h1 className = 'text-3xl text-center  w-fit flex items-center font-bold   text-black'>
+      <h1 className = 'text-3xl text-center  w-fit flex items-center font-black   text-gray-700'>
             <img src='assets/DoctorIcon.svg' alt=''/>
             <DoctorIcon/>
             Physicians
         </h1>
-        <p className = ' w-full  drop-shadow-lg text-center text-slate-800'>
+        <p className = ' w-full md:w-[80%]  drop-shadow-sm text-center text-slate-800 md:text-2xl p-10 font-light'>
       Professional liability coverage for physicians and allied healthcare professionals
         </p>
+        <button className ='bg-red-600 text-zinc-300 border-[1px] border-red-600 hover:bg-none font-bold p-4 md:mb-0 mb-2'>
+
+Learn More
+</button>
       </div>
-      <button id='learn-more' className = 'border-0 border-l-[.5px]  border-gray-400 h-full w-[25%]  flex flex-col justify-center items-center  rounded-r-xl p-0 m-0 rounded-l-none bg-slate-600 '>
-        <p className='font-semibold text-2xl'><BsFillArrowRightCircleFill/></p>
-      
-      </button>
+     
         
         
     </div>
