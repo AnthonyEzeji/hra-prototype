@@ -49,7 +49,7 @@ function App() {
   {<SplideSlide className='p-0 h-screen md:h-fit w-[99vw] flex  justify-center  '>
     <div className='md:w-full md:h-fit flex flex-col md:flex-row-reverse   bg-slate-100 justify-center  border-b-[1px] border-gray-300'>
     <div className=' md:h-fit h-screen flex flex-col p   md:w-[30%] justify-start  mx-[5%]  mt-20 lg:mt-40 p-2 rounded-2xl '>
-      <h1 className = 'lg:text-7xl md:text-4xl sm:text-5xl text-4xl font-bold w-[100%] text-white mb-5 text-gray-600 drop-shadow-md    '>
+      <h1 className = 'lg:text-7xl md:text-4xl sm:text-5xl text-4xl font-bold w-[100%]  mb-5 text-gray-600 drop-shadow-md    '>
 Risk Management
       </h1>
       <p className='w-auto max-h-[300px] lg:text-3xl md:text-xl sm:text-2xl text-gray-900 font-normal  mb-5 drop-shadow-2xl  '>
