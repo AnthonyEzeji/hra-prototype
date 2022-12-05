@@ -18,9 +18,9 @@ function classNames(...classes) {
 }
 function Nav2() {
   return (
-    <div class='navbar' className='w-screen h-[10vh] flex p-3 drop-shadow-lg  z-40  top-[25px] bg-zinc-300 text-white items-center fixed  border-b-[1px] border-gray-300' >
+    <div class='navbar' className='w-screen h-[7vh] flex p-2 drop-shadow-lg  z-40  top-[25px] bg-gray-200 text-white items-center fixed  border-b-[1px] border-gray-300' >
   
-<div className='lg:w-[20%] w-[50%] lg:h-[70%] min-h-[50px] md:h-[90%] md:w-[40%]  hidden md:flex justify-centermd:justify-start'><img src={HRALOGO} className='z-10  lg:w-[70%] md:w-[50%]' alt="" /></div>
+<div className='lg:w-[20%] w-[50%] lg:h-[70%] min-h-[45px] md:h-[90%] md:w-[40%]  hidden md:flex justify-centermd:justify-start'><img src={HRALOGO} className='z-10  lg:w-[70%] md:w-[50%]' alt="" /></div>
 <div className='lg:w-[60%]  flex  justify-center'>
     <ul className = 'w-fit  items-center hidden lg:flex'>
         <li> <Menu as='div' className='relative inline-block text-left  '>
